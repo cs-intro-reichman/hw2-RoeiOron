@@ -12,8 +12,7 @@ public class CalcPi {
             sign = sign * -1.0; 
         }
         double myPi = piAdd * 4;
-
-        System.out.println("pi, approximated: "+ myPi);
 		System.out.println("pi according to Java: " + pi);
+        System.out.println("pi, approximated: "+ myPi);
     }
 }

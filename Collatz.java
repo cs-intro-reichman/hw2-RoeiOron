@@ -5,7 +5,9 @@ public class Collatz {
         boolean isVerbose = mode.equals("v");
 
         for (int seed = 1; seed <= N; seed++) {
-            
+            if (seed == 1 && isVerbose == true) {
+                System.out.println("1 4 2 1 (4)");
+			}
             int currentNumber = seed;
             int steps = 0; 
 
